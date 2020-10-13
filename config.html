@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Chat bot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+<button onclick="requestPermission()">Click here for permission</button>
+
+
+<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-messaging.js"></script>
+<script type="text/javascript">
+    window.ymConfig = {
+        bot: "x1549452266136",
+        autoOpen: false,
+        logging: true,
+        serviceWorkerPath: './messaging-sw.js',
+        pwa: true,
+        linkType: 'live'
+    };
+    const d=document,e=d.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://app.yellowmessenger.com/widget/live.js";const t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);
+</script>
+</body>
+</html>
